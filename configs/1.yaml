@@ -1,0 +1,17 @@
+b_num_class: 10
+b_batch_size: 4
+b_data_path: ~/dataset/puzzle2k
+b_data_set: puzzle
+b_device: cuda
+b_epochs: 12
+b_eval: false
+b_finetune: ''
+b_resume: "/homeB/liangxiaoyu/23w0322/puzzle/output_dir/result/0428a10basev7.pth"
+b_model: vit
+b_pretrained_path: exps/deit_small/checkpoint.pth
+b_seed: 42
+b_start_epoch: 0
+my_output_dir: ./output_dir
+my_output_filename: '0428a10basev8'
+my_file_path: "/homeB/xxy/23w0322/puzzle/test/"
+my_single_img_name: "1ef9c0e0e5dc70a5f293c6e404d770d2.jpeg"
